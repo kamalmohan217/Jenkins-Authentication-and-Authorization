@@ -21,7 +21,7 @@ I logged-in with user dexter who has administrative privilege
 Go to **Manage Jenkins** > **Security** as shown in the screenshot attached below.
 
 ![image](https://github.com/user-attachments/assets/940d7317-58e2-4f26-99df-69a6d99515f7)
-![image](https://github.com/user-attachments/assets/06d362e2-8f55-4a1a-8c6b-f45a31e2e27d)
+![image](https://github.com/user-attachments/assets/3b8973fb-1b0a-484f-ae2f-8c4ed74cd252)
 ![image](https://github.com/user-attachments/assets/152eefbb-8153-4365-8c42-567da607f7e0)
 
 First of all I am using **Matrix based security** as shown in the screenshot attached below.
