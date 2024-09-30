@@ -73,3 +73,11 @@ With this condition user1 can only see jenkins job test-1 and user2 can only see
 
 ![image](https://github.com/user-attachments/assets/2d45eb30-a146-4d3d-9dc9-5e8714667260)
 ![image](https://github.com/user-attachments/assets/3f45b51e-5296-4438-a599-e3acf4fc5ade)
+
+For **Jenkins own user database** go to **Manage Jenkins** > **Security** as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/1b92ca0c-4781-40d3-bda0-e9b74344de28)
+
+For Autorization mode I chosen Logged-in users can do anything. However you can restrict the user with Matrix based security or Project-based Matrix authorization strategy as explain earlier. I have unchecked Allow anonymous read access.
+
+![image](https://github.com/user-attachments/assets/9948828a-2ddd-4d7a-b764-cdbbbb0d130a)
