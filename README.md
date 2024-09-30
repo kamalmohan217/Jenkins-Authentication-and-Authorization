@@ -62,4 +62,14 @@ However user2 can Read and Build both the jenkins job test-1 and test-2 as shown
 ![image](https://github.com/user-attachments/assets/07ebf0ac-a0b6-4572-855b-b26f6cafb2be)
 ![image](https://github.com/user-attachments/assets/a3c0bb79-6fd2-4a2e-92da-67e89c653540)
 
+Now in Jenkins Job test-2 I did not enable project based security while in Jenkins Job test-1 I enabled project based security with the condition of **Do not Inherit permissions granted from other ACLs** as shown in the screenshot attached below. In test-1 Jenkins Job user1 has Job based Read access as shown in the screenshot attached below.
 
+![image](https://github.com/user-attachments/assets/a83ff166-81fa-4851-b25f-f2a4286eeb55)
+
+With this condition user1 can only see jenkins job test-1 and user2 can only see jenkins job test-2 with Build Access as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/3657b634-0db4-4569-b619-71c0dfaf0972)
+![image](https://github.com/user-attachments/assets/3ad3c246-362e-4c01-a065-f82bbc649935)
+
+![image](https://github.com/user-attachments/assets/2d45eb30-a146-4d3d-9dc9-5e8714667260)
+![image](https://github.com/user-attachments/assets/3f45b51e-5296-4438-a599-e3acf4fc5ade)
