@@ -89,4 +89,4 @@ You can create the users with **Manage Jenkins** > **Users** for Authentication 
 
 I logged-in with user user3 and I provided Authorization mode as Logged-in user can do anything.
 
-![image](https://github.com/user-attachments/assets/2e7747e5-4aec-4730-8c84-10b36402afc3)
+![image](https://github.com/user-attachments/assets/7c9d7ca8-d6bc-4ce1-bcab-3a73a8b7eed3)
