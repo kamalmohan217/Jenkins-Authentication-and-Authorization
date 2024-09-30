@@ -81,3 +81,12 @@ For **Jenkins own user database** go to **Manage Jenkins** > **Security** as sho
 For Autorization mode I chosen Logged-in users can do anything. However you can restrict the user with Matrix based security or Project-based Matrix authorization strategy as explain earlier. I have unchecked Allow anonymous read access.
 
 ![image](https://github.com/user-attachments/assets/9948828a-2ddd-4d7a-b764-cdbbbb0d130a)
+
+You can create the users with **Manage Jenkins** > **Users** for Authentication purpose you can follow the same procedure as explained earlier.
+
+![image](https://github.com/user-attachments/assets/b5ff77e1-38f5-4cff-8901-582c84b5926d)
+![image](https://github.com/user-attachments/assets/f27207c2-2ea3-4789-8c43-f27268f46457)
+
+I logged-in with user user3 and I provided Authorization mode as Logged-in user can do anything.
+
+![image](https://github.com/user-attachments/assets/2e7747e5-4aec-4730-8c84-10b36402afc3)
