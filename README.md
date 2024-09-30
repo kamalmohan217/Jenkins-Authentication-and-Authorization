@@ -38,3 +38,28 @@ When login with user2 can read and build the job as shown in the screenshot atta
 ![image](https://github.com/user-attachments/assets/60a06678-5673-4edc-99d1-5ae202b54eb2)
 ![image](https://github.com/user-attachments/assets/8757123c-2ab3-4da4-b57a-7b8788dcdce9)
 ![image](https://github.com/user-attachments/assets/cb260fc7-1317-4112-9218-1fb6002c3506)
+
+Now I am using **Project-based Matrix authorization strategy** and provided overall Read and Build access to the user2 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/96fd5a08-5d63-4ad4-bbe0-fb5a0a4acd73)
+
+Go to **Manage Jenkins** > **Security** as shown in the screenshot attached below.
+![image](https://github.com/user-attachments/assets/a290eec1-53d5-475f-b020-c62645ada824)
+
+In Jenkins Job test-2 I did not enable project based security while in Jenkins Job test-1 I enabled project based security with the condition of **Inherit permissions from parent ACL** as shown in the screenshot attached below. In test-1 Jenkins Job user1 has Job based Read access as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/b3cc8dd1-8629-4b5f-baef-986509b4113a)
+![image](https://github.com/user-attachments/assets/fb54e7dc-f009-43f5-b521-2253ca139ebb)
+
+I can conclude that the user1 can only read test-1 jenkins job and can not read any jenkins job as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/61aea66e-d01f-473c-b1f8-0ea99dca6f8d)
+![image](https://github.com/user-attachments/assets/77917d51-cdea-4760-8026-fb8a6fda339a)
+
+However user2 can Read and Build both the jenkins job test-1 and test-2 as shown in the screenshot attached below.
+
+![image](https://github.com/user-attachments/assets/83af73de-e7f0-4bdc-8b40-b18cff172882)
+![image](https://github.com/user-attachments/assets/07ebf0ac-a0b6-4572-855b-b26f6cafb2be)
+![image](https://github.com/user-attachments/assets/a3c0bb79-6fd2-4a2e-92da-67e89c653540)
+
+
